@@ -1,0 +1,5 @@
+package ph.tuklaslokal.app
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

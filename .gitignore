@@ -1,0 +1,48 @@
+# Secrets and local environment
+# Never commit real credentials. Keep only variable-name templates.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+key.properties
+
+# Python (backend)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Flutter / Dart (app)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+app.*.symbols
+app.*.map.json
+
+# Android / Gradle local state
+.gradle/
+local.properties
+captures/
+
+# Editors and OS
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.swp
